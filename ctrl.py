@@ -32,4 +32,13 @@ class Control:
         return a/b
     
     def pow(self, a, b):
-        return pow(a, b)
+         def pow(self, a, b):
+        try:
+           if (a==0):
+                raise Exception("Base Error")
+           
+            except Exception as e:
+            return e
+        
+        return pow(a, b)   
+    
